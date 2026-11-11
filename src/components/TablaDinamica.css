@@ -1,0 +1,166 @@
+
+.tabla-dinamica-pagina {
+  width: 100%;
+  max-width: 100%;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+/* ELEMENTO QUE SE CAPTURA */
+.tabla-dinamica-captura {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #e5eaf0;
+  box-shadow: 0 5px 20px rgba(20, 40, 70, 0.09);
+  box-sizing: border-box;
+}
+
+/* TITULO */
+.tabla-dinamica-titulo {
+  background: linear-gradient(
+    135deg,
+    var(--color-principal),
+    var(--color-secundario)
+  );
+
+  padding: 20px 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.tabla-dinamica-titulo h2 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.tabla-dinamica-titulo p {
+  margin: 6px 0 0;
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+/* CONTENEDOR DE TABLA */
+.tabla-dinamica-scroll {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* TABLA */
+.tabla-dinamica {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: inherit;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* ENCABEZADOS */
+.tabla-dinamica thead th {
+  background: var(--color-encabezado);
+  color: var(--color-principal);
+  padding: 15px 12px;
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  border-bottom: 2px solid #dce4ed;
+  white-space: nowrap;
+}
+
+/* CELDAS */
+.tabla-dinamica tbody td {
+  padding: 13px 10px;
+  color: #34445a;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 1px solid #edf0f4;
+  min-width: 90px;
+  white-space: nowrap;
+}
+
+/* FILAS ALTERNADAS */
+.tabla-dinamica tbody tr:nth-child(even) {
+  background: #f5f8fc;
+}
+
+.tabla-dinamica tbody tr:nth-child(odd) {
+  background: #ffffff;
+}
+
+/* PIE DE PAGINA */
+.tabla-dinamica-footer {
+  background: #f4f6f9;
+  color: var(--color-principal);
+  text-align: center;
+  padding: 13px 10px;
+  font-size: 12px;
+  font-weight: 700;
+  border-top: 1px solid #e2e8f0;
+}
+
+/* ACCIONES */
+.tabla-dinamica-acciones {
+  display: flex;
+  justify-content: center;
+  padding: 14px 0;
+}
+
+.tabla-dinamica-boton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  width: 85%;
+  max-width: 320px;
+  padding: 13px 18px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(
+    135deg,
+    #243c5a,
+    #35618e
+  );
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(36, 60, 90, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.tabla-dinamica-boton:active {
+  transform: scale(0.97);
+}
+
+.tabla-dinamica-boton span {
+  font-size: 21px;
+  font-weight: 800;
+}
+
+/* MOVIL */
+@media (max-width: 600px) {
+  .tabla-dinamica-titulo {
+    padding: 16px 10px;
+  }
+
+  .tabla-dinamica-titulo h2 {
+    font-size: 16px;
+  }
+
+  .tabla-dinamica tbody td {
+    padding: 11px 9px;
+    font-size: 13px;
+  }
+
+  .tabla-dinamica thead th {
+    padding: 12px 9px;
+    font-size: 12px;
+  }
+}
