@@ -25,7 +25,7 @@
     var(--color-secundario)
   );
 
-  padding: 20px 12px;
+  padding: 5px 3px;
   text-align: center;
   color: #ffffff;
 }
@@ -39,7 +39,7 @@
 }
 
 .tabla-dinamica-titulo p {
-  margin: 6px 0 0;
+  margin: 1px 0 0;
   font-size: 13px;
   font-weight: 500;
   opacity: 0.9;
@@ -57,7 +57,7 @@
   width: 100%;
   border-collapse: collapse;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -76,9 +76,9 @@
 
 /* CELDAS */
 .tabla-dinamica tbody td {
-  padding: 13px 10px;
+  padding: 5px 3px;
   color: #34445a;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   border-bottom: 1px solid #edf0f4;
   min-width: 90px;
@@ -147,7 +147,7 @@
 /* MOVIL */
 @media (max-width: 600px) {
   .tabla-dinamica-titulo {
-    padding: 16px 10px;
+    padding: 4px 2px;
   }
 
   .tabla-dinamica-titulo h2 {
@@ -155,8 +155,8 @@
   }
 
   .tabla-dinamica tbody td {
-    padding: 11px 9px;
-    font-size: 13px;
+    padding: 5px 4px;
+    font-size: 20px;
   }
 
   .tabla-dinamica thead th {

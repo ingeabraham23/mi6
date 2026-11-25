@@ -8,7 +8,7 @@ function App() {
 
       <TablaDinamica datos={tablas.calicapan} />
 
-      <TablaDinamica datos={tablas.tacopan} />
+      <TablaDinamica datos={tablas.pajaco} />
 
     </div>
   );

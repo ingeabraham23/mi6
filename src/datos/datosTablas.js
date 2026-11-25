@@ -1,7 +1,7 @@
 
 export const tablas = {
   calicapan: {
-    titulo: "Horarios de la mañana",
+    titulo: "Horarios de la mañana Ruta 3",
     subtitulo: "Calicapan - Teziutlán",
 
     columnas: {
@@ -28,7 +28,7 @@ export const tablas = {
       ],
     },
 
-    piePagina: "@el.joyboy.de.chignautla",
+    piePagina: "Servicios de Inteligencia | MI6",
 
     colores: {
       principal: "#243c5a",
@@ -37,8 +37,8 @@ export const tablas = {
     },
   },
 
-  tacopan: {
-    titulo: "Horarios de la mañana",
+  pajaco: {
+    titulo: "Horarios de la mañana Ruta 3",
     subtitulo: "Pajaco - Teziutlán",
 
     columnas: {
@@ -72,7 +72,7 @@ export const tablas = {
       
     },
 
-    piePagina: "Urbanos Rojos | Horarios oficiales",
+    piePagina: "Servicios de Inteligencia | MI6",
 
     colores: {
       principal: "#572c75",
